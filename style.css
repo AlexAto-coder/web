@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Open Sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f4f6;
+  height: 100vh;
+}
+
+/* Estilos para el header*/
+header{
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin: 8px auto;
+}
+
+.header-name{
+    font-size: 30px;
+    line-height: 36px;
+    color: #111827;
+}
+
+.header-inicio{
+    font-size: 16px;
+    line-height: 24px;
+    color: #db2777;
+}
+
+.header-button{
+    background-color: #db2777;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+/* Estilos para la sección 1 de la presentación*/
+.s1-contenedor{
+    background-color: #d6d3d1;
+}
+
+.presentacion{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 32px 0;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57.6px;
+}
+
+h1 span{
+    color: #db2777;
+}
+
+.presentacion-texto{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 8px;
+}
+
+/* Estilos para la sección 2 de fortalezas.*/
+.fortalezas{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 32px 0;
+}
+
+h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43.2px;
+    margin-bottom: 16px;
+}
+
+.fortalezas-cards{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+
+.fortaleza-card{
+    display: flex;
+    max-width: 480px;
+    gap: 16px;
+}
+
+.fortaleza-titulo{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
+.fortaleza-texto{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 8px;
+}
+
+/* Estilos para la sección 3 - Mis Hobbies*/
+
+.s3-contenedor{
+    background-color: #e5e7eb;
+}
+
+.hobbies{
+   max-width: 1024px; 
+   margin: 0 auto;
+   padding: 32px 0;
+}
+
+.hobbies-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.hobbie-card{
+    max-width: 320px;
+    text-align: center;
+}
+
+.hobbie-titulo{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 8px;
+}
+
+.hobbie-texto{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.hobbie-img{
+    border-radius: 8px;
+}
+
+/* footer */
+
+footer{
+    max-width: 1440px;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 600;
+    background-color: #d6d3d1;  
+}
+
+.footer-button{
+    background-color: #db2777;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    align-items: center;
+    margin: 14px 24px;
+}
+
+/*Estilos para portafolio*/
+
+.portafolio{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 32px 0;
+}
+
+.portafolio-arriba{
+    width: 992px;
+    height: 43px;
+    text-align: center;
+    line-height: 43.2px;
+    size: 36px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+
+.portafolio-subtitulo{
+    text-align: center;
+    margin: 0 auto;
+    line-height: 27px;
+    font-weight: 400;
+    size: 18px;
+}
+
+.portafolio-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px;
+    max-width: 480px;
+    margin-bottom: 16px;
+}
+
+.portafolio-titulo{
+    width: 432px;
+    height: 24px;
+    font-weight: 600;
+    size: 20px;
+    line-height: 24px;
+    color: #111827;
+}
